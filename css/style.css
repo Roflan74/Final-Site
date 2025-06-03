@@ -1,0 +1,339 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 100px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 177px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+header a:hover {
+    color: rgb(50, 50, 50);
+}
+
+.finger-licking-honey {
+    max-width: 1500px;
+    height: 865px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background: url("../img/honey-background.svg"),
+        linear-gradient(90deg,rgba(255, 157, 45, 1) 0%, rgba(255, 216, 119, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.finger-licking-honey h1 {
+    font-size: 100px;
+}
+
+.finger-licking-honey h2 {
+    font-size: 100px;
+}
+
+.finger {
+    margin: 0px;
+    padding-top: 182px;
+    padding-left: 177px;
+    font-weight: bold;
+}
+
+.licking {
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 275px;
+    font-weight: bold;
+}
+
+.bee-and-honey {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bee-and-honey h1 {
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 275px;
+    font-weight: bold;
+}
+
+.bee-and-honey img {
+    transform: translateX(177px);
+    width: 189px;
+    height: 129px;
+}
+
+.pure {
+    margin: 0;
+}
+
+.pure img {
+    transform: translateY(124px);
+    width: 686px;
+    height: 650px;
+}
+
+.buy-now {
+    width: 160px;
+    height: 65px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.learn-more {
+    width: 209px;
+    height: 65px;
+    color: black;
+    border: 2px solid black;
+    background-color: rgba(256, 256, 256, 0);
+    font-size: 18px;
+    margin-left: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.btns {
+    padding-top: 70px;
+    padding-left: 177px;
+}
+
+.our-trusted-shops {
+    margin-left: 200px;
+    max-width: 1200px;
+    height: 72px;
+    margin-top: 130px;
+    vertical-align: middle;
+}
+
+.our-trusted-shops h1 {
+    font-size: 45px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.shops {
+    margin-left: 200px;
+    max-width: 1200px;
+    height: 38px;
+    margin-top: 50px;
+}
+
+
+.nature {
+    max-width: 1400px;
+    margin-left: 100px;
+    height: 785px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nature h2 {
+    padding-top: 205px;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.nature p {
+    padding-top: 30px;
+    margin: 0px;
+    font-size: 22px;
+}
+
+.nature button {
+    margin-top: 50px;
+    width: 184px;
+    height: 59px;
+    background-color: #E58311;
+    border: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.nature button:hover {
+    background-color: #f09935;
+    cursor: pointer;
+}
+
+.nature button:focus {
+    background-color: #f09935;
+    cursor: pointer;
+}
+
+.nature .text-block1 {
+    margin-left: 32px;
+}
+
+.try-us {
+    max-width: 1400px;
+    margin-left: 100px;
+    height: 785px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.try-us img {
+    padding-left: 152px;
+}
+
+.try-us h2 {
+    padding-top: 205px;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.try-us p {
+    padding-top: 30px;
+    margin: 0px;
+    font-size: 22px;
+}
+
+.try-us button {
+    margin-top: 50px;
+    width: 184px;
+    height: 59px;
+    background-color: #E58311;
+    border: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.try-us button:hover {
+    background-color: #f09935;
+    cursor: pointer;
+}
+
+.try-us button:focus {
+    background-color: #f09935;
+    cursor: pointer;
+}
+
+.our-product {
+    margin-left: 250px;
+    max-width: 1146px;
+    height: 427px;
+    margin-top: 100px;
+    /* background-color: palegreen; */
+}
+
+.products {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.our-product h3 {
+    margin-top: 45px;
+    font-size: 28px;
+}
+
+.our-product p {
+    font-size: 16px;
+}
+
+.our-product button {
+    width: 140px;
+    height: 49px;
+    background-color: rgba(256, 256, 256, 0);
+    color: #E58311;
+    border: 1.5px solid #E58311;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.our-product button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.eucalyptus {
+    width: 558px;
+    height: 305px;
+    background-color: rgba(229, 130, 17, 0.07);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basswood {
+    margin-left: 30px;
+    width: 558px;
+    height: 305px;
+    background-color: rgba(229, 130, 17, 0.07);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-block2 {
+    margin-left: 30px;
+}
+
+.basswood-honey-img {
+    transform: translate(-40px, 30px);
+}
+
+.our-product h2 {
+    font-size: 45px;
+    margin: 0px;
+}
+
+.our-product a {
+    margin-left: 1100px;
+    color: #E58311;
+}
+
+.buy-now:hover {
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.buy-now:focus {
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.learn-more:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
